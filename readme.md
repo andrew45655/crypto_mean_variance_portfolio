@@ -18,9 +18,3 @@ the weighting of min Volailty will be output as min_vol_weighting.txt
 Download the 'code test v2.py'
 change the naming of crypto currency inside the coins list
 Run all the code
-
-
-## *Author Name*
-<!--Remove the below lines and add yours -->
-Author of the code : Andrew Fung
-link : 
