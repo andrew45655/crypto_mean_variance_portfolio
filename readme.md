@@ -9,12 +9,12 @@ The Portfolio Engine class is used for constructing mean-variance portfolio of c
 
 ### How to run the script
 <!--Remove the below lines and add yours -->
-#### Direct Execution
+#### * Direct Execution
 Run 'code test v2.py' to run the portfolio calculation to output weighting and plot out efficient frontier chart
 the weighting of max Sharpe Ratio will be output as max_sharpRatio_weighting.txt
 the weighting of min Volailty will be output as min_vol_weighting.txt
 
-#### Amend Crypto currencies
+#### * Amend Crypto currencies
 Download the 'code test v2.py'
 change the naming of crypto currency inside the coins list
 Run all the code
