@@ -1,20 +1,26 @@
 # Optimizing Portfolio on Crypto-currencies
 <!--Remove the below lines and add yours -->
-The Portfolio Engine class is used for constructing mean-variance portfolio of crypto-currencies. The script can extract crypto currencies data using ftx api. Using the closing price of 1 hour interval to optimize the mean-variance portfolio. 
+The Portfolio Engine class is used for constructing mean-variance portfolio of crypto-currencies. The script extracts crypto currencies data in 1 hour interval via ftx api from 2021-10-01T00 to 2021-10-31T23. Standard deviation and mean return of 2500 portfolio with random weightings will be calculated. Max Sharpe Ratio portfolio weighting and Min Volaility portfolio weighting will be choen among the simulated result. The script will output the weighting into txt file and plot out efficient frontier chart
 
 ### Prerequisites
 <!--Remove the below lines and add yours -->
-If you installed python 3.7+, the default packages can satisfy the package requirement.
+* json
+* Run `pip install json` to install required modules.
 
 ### How to run the script
 <!--Remove the below lines and add yours -->
-Steps on how to run the script along with suitable examples.
+#### Direct Execution
+Run 'code test v2.py' to run the portfolio calculation to output weighting and plot out efficient frontier chart
+the weighting of max Sharpe Ratio will be output as max_sharpRatio_weighting.txt
+the weighting of min Volailty will be output as min_vol_weighting.txt
 
-### Screenshot/GIF showing the sample use of the script
-<!--Remove the below lines and add yours -->
-Add a jpeg/png/gif file here.
+#### Amend Crypto currencies
+Download the 'code test v2.py'
+change the naming of crypto currency inside the coins list
+Run all the code
+
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
-author of the code : Andrew Fung
-If you have a web site or a Git user name, feel free to link.
+Author of the code : Andrew Fung
+link : 
